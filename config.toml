@@ -1,0 +1,12 @@
+# when I include the line, all my links contain example.com
+#baseURL = "http://example.com"
+languageCode = "en-us"
+title = "foo"
+theme = "mytheme"
+
+
+# without this, my index.html doesn't get rendered sometimes
+disableKinds = ["home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+relativeURLs = true
+uglyURLs = true
