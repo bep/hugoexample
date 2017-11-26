@@ -5,4 +5,5 @@ title = "foo"
 theme = "mytheme"
 
 relativeURLs = true
+canonifyURLs = false
 uglyURLs = true

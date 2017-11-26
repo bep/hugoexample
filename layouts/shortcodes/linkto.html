@@ -1,1 +1,14 @@
-({{ with .Site.GetPage "section" ( .Get 0 ) }}{{ .URL }}{{ end}})
+({{ with .Site.GetPage "section" "index.md"  }}{{ .Relpermalink }}{{ end}})
+({{ with .Site.GetPage "section" "index.md"  }}{{ .Permalink }}{{ end}})
+
+({{ with .Site.GetPage "section" "_index.md"  }}{{ .Relpermalink }}{{ end}})
+({{ with .Site.GetPage "section" "_index.md"  }}{{ .Permalink }}{{ end}})
+
+({{ with .Site.GetPage "section" "/_index.md"  }}{{ .Relpermalink }}{{ end}})
+({{ with .Site.GetPage "section" "/_index.md"  }}{{ .Permalink }}{{ end}})
+
+({{ with .Site.GetPage "section" "/"  }}{{ .Relpermalink }}{{ end}})
+({{ with .Site.GetPage "section" "/"  }}{{ .Permalink }}{{ end}})
+
+({{ with .Site.GetPage "section" "index.html"  }}{{ .Relpermalink }}{{ end}})
+({{ with .Site.GetPage "section" "index.html"  }}{{ .Permalink }}{{ end}})

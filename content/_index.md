@@ -8,7 +8,7 @@ title = "my title"
 any combination with / _ ... doesn't seem to work
 
 
-{{< linkto "index.md" >}}
+{{< linkto >}}
 
 
 See also [bla.md]({{< ref "bla.md" >}})
